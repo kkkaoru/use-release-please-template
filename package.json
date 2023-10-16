@@ -1,0 +1,16 @@
+{
+  "name": "use-release-please",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "cz"
+  },
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "17.8.0",
+    "@commitlint/config-conventional": "17.8.0",
+    "@commitlint/cz-commitlint": "17.8.0",
+    "commitizen": "4.3.0"
+  }
+}
