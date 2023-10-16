@@ -4,7 +4,11 @@ on:
   push:
     branches:
       - release
-
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: 'Git ref to deploy (e.g. main, v1.0.0, c91ee3c, etc.)'
+        required: true
 permissions:
   contents: write
   pull-requests: write
